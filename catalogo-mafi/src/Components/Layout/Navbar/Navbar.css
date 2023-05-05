@@ -1,0 +1,44 @@
+.navlinks{
+    display: flex;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+}
+
+.navlink:hover {
+    color: #E2C8B3;
+}
+.navlink-cart {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+img {
+    width: 12%;
+}
+
+@media (max-width: 800px) {
+  
+    img {
+        width: 40%
+    }
+    
+    .navlink {
+        color: #2b4846;
+    }
+    
+
+}

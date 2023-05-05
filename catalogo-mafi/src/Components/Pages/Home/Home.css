@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-img {
+    width: 30%
+}
+
+@media (max-width: 800px) {
+  
+    #home-img {
+        width: 60%;
+    }
+
+    
+
+}
